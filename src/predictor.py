@@ -46,7 +46,7 @@ def accent_aware_stt(audio_file):
             used_stt = "Whisper"
             if whisper_model is not None:
                 try:
-                    result = whisper_model.transcribe(audio_file)
+                    result = whisper_model.transcribe(audio_file,language='en')
                     transcript = result.get("text", "")
                 except Exception as e:
                     logging.error(f"Whisper transcription failed: {e}")
