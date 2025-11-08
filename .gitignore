@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Python tooling
+pip-wheel-metadata/
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pycache
+__pycache__/
+
+# Project specific: data, models and generated artifacts
+data/
+data/*.npy
+models/
+models/*.pkl
+plots/
+
+# Gradio artifacts and flagged data
+.gradio/
+.gradio/*
+
+# Dataset audio files (large) - keep out of Git
+dataset/**/*.wav
+dataset/**/*.mp3
+dataset/**/*.flac
+
+# Ignore large media, built artifacts
+*.wav
+*.mp3
+*.flac
+
+# Environment files and secrets
+.env
+.env.*
+
+# Python bytecode
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Certificates (if any)
+*.pem
